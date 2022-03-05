@@ -1,4 +1,4 @@
-package Singleton;
+package SingletonPackage.Singleton;
 
 public class GameEngine {
     private int hp = 100;

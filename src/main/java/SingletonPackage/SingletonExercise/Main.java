@@ -1,4 +1,4 @@
-package SingletonExercise;
+package SingletonPackage.SingletonExercise;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class Main {
         GameEngine AnotherEngine = GameEngine.getInstance();
 
         if(Engine == AnotherEngine){
-            System.out.println("Singleton !");
+            System.out.println("SingletonPackage.Singleton !");
         }
         if(score == AnotherEngine.getScore()){
             System.out.println("Punkty sie zgadzaja");

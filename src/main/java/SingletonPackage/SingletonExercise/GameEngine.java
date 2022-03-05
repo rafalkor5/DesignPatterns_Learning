@@ -1,6 +1,5 @@
-package SingletonExercise;
+package SingletonPackage.SingletonExercise;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class GameEngine {

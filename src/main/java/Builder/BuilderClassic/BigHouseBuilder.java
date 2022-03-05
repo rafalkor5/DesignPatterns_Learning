@@ -1,41 +1,41 @@
-package BuilderClassic;
+package Builder.BuilderClassic;
 
-public class SmallHouseBuilder implements HouseBuilder{
+public class BigHouseBuilder implements  HouseBuilder{
 
     private House house;
 
-    public SmallHouseBuilder() {
+    public BigHouseBuilder() {
         this.house = new House();
     }
 
     //@Buildery
     @Override
     public void buildwalls() {
-    this.house.setWalls("small");
+        this.house.setWalls("BIG");
     }
     @Override
     public void buildFloors() {
-    this.house.setFloors("small");
+        this.house.setFloors("BIG");
     }
     @Override
     public void buildRooms() {
-    this.house.setRooms("small");
+        this.house.setRooms("BIG");
     }
     @Override
     public void buildroof() {
-    this.house.setRoof("small");
+        this.house.setRoof("BIG");
     }
     @Override
     public void buildwindwos() {
-    this.house.setWindows("small");
+        this.house.setWindows("BIG");
     }
     @Override
     public void builddoors() {
-    this.house.setDoors("small");
+        this.house.setDoors("BIG");
     }
     @Override
     public void buildgarage() {
-    this.house.setGarage("small");
+        this.house.setGarage("BIG");
     }
 
 
@@ -44,3 +44,4 @@ public class SmallHouseBuilder implements HouseBuilder{
         return house;
     }
 }
+

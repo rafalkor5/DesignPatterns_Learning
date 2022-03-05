@@ -1,4 +1,4 @@
-package SingletonExercise;
+package SingletonPackage.SingletonExercise;
 
 public class username {
     private String name;

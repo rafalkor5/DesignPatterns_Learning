@@ -1,4 +1,4 @@
-package BuilderInsideClass;
+package Builder.BuilderInsideClass;
 
 public class House {
     private String walls;

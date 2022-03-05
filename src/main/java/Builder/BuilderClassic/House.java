@@ -1,4 +1,4 @@
-package BuilderClassic;
+package Builder.BuilderClassic;
 
 public class House {
     //klasa obiektu zawiera getery i setery oraz metody to string

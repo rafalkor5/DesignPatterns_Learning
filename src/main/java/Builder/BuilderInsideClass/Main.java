@@ -1,4 +1,4 @@
-package BuilderInsideClass;
+package Builder.BuilderInsideClass;
 
 public class Main {
     public static void main(String[] args) {

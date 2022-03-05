@@ -1,4 +1,4 @@
-package BuilderClassic;
+package Builder.BuilderClassic;
 
 public interface HouseBuilder {
 
