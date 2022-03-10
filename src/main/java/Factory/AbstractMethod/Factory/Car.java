@@ -1,4 +1,4 @@
-package FactoryPackage.AbstractMethod.Factory;
+package Factory.AbstractMethod.Factory;
 
 public class Car extends MechanizedUnit {
     Car(int hp, int exp, int damage, Flag flag) {

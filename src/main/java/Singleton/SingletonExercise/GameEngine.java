@@ -1,4 +1,4 @@
-package SingletonPackage.SingletonExercise;
+package Singleton.SingletonExercise;
 
 import java.util.Scanner;
 

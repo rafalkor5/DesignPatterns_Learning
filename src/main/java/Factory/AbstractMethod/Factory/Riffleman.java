@@ -1,4 +1,4 @@
-package FactoryPackage.AbstractMethod.Factory;
+package Factory.AbstractMethod.Factory;
 
 public class Riffleman extends InfantryUnit {
      Riffleman(int hp, int exp, int damage, Flag flag) {

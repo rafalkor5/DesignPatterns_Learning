@@ -1,4 +1,4 @@
-package FactoryPackage.AbstractMethod.Factory;
+package Factory.AbstractMethod.Factory;
 
 
 public class Tank extends MechanizedUnit {

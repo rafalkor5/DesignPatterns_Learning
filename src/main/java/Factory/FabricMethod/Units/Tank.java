@@ -1,4 +1,4 @@
-package FactoryPackage.FabricMethod.Units;
+package Factory.FabricMethod.Units;
 
 public class Tank extends Unit{
 

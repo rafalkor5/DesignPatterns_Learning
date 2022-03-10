@@ -1,4 +1,4 @@
-package FactoryPackage.FabricMethod.Units;
+package Factory.FabricMethod.Units;
 
 public abstract class Unit {
 

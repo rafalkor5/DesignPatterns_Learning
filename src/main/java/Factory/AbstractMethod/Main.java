@@ -1,7 +1,7 @@
-package FactoryPackage.AbstractMethod;
+package Factory.AbstractMethod;
 
-import FactoryPackage.AbstractMethod.Factory.*;
-import FactoryPackage.AbstractMethod.Factory.InfantaryUnitType;
+import Factory.AbstractMethod.Factory.*;
+import Factory.AbstractMethod.Factory.InfantaryUnitType;
 
 public class Main {
 

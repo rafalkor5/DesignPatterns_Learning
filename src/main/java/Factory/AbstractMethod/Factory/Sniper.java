@@ -1,4 +1,4 @@
-package FactoryPackage.AbstractMethod.Factory;
+package Factory.AbstractMethod.Factory;
 
 public class Sniper extends InfantryUnit {
     Sniper(int hp, int exp, int damage, Flag flag) {

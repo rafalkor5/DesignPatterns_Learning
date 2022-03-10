@@ -1,12 +1,12 @@
-package FactoryPackage.AbstractMethod.Factory;
-public abstract class InfantryUnit extends Unit {
+package Factory.AbstractMethod.Factory;
+public abstract class MechanizedUnit extends Unit {
 
     private int hp;
     private int exp;
     private int damage;
     private Flag flag;
 
-    protected InfantryUnit(int hp, int exp, int damage, Flag flag) {
+    protected MechanizedUnit(int hp, int exp, int damage, Flag flag) {
         this.hp = hp;
         this.exp = exp;
         this.damage = damage;
@@ -26,7 +26,7 @@ public abstract class InfantryUnit extends Unit {
 
     @Override
     public String toString() {
-        return "InfantryUnit{" +
+        return "MechanizedUnit{" +
                 "hp=" + hp +
                 ", exp=" + exp +
                 ", damage=" + damage +

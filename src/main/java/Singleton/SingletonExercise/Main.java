@@ -1,4 +1,4 @@
-package SingletonPackage.SingletonExercise;
+package Singleton.SingletonExercise;
 
 public class Main {
     public static void main(String[] args) {
