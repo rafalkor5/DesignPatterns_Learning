@@ -1,4 +1,4 @@
-package FactoryPackage.AbstractMethod.Factory;
+package Factory.AbstractMethod.Factory;
 
 public class RedFactory extends Factory{
     private Flag flag = Flag.RED;
