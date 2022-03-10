@@ -1,21 +1,20 @@
 package FactoryPackage.AbstractMethod;
 
-import FactoryPackage.FabricMethod.Units.*;
+import FactoryPackage.AbstractMethod.Factory.*;
+import FactoryPackage.AbstractMethod.Factory.InfantaryUnitType;
 
 public class Main {
+
     public static void main(String[] args) {
-        Factory factory = new UnitFactory();
+        Factory blueFactory = new BlueFactory();
+        Factory redFactory = new RedFactory();
 
-        //Nie uzywamy konstruktora tylko wywołujemy metode createUnit z UnitFactory.class
-        //zaimplementowana z klasy abstrakcyjnej factory
-        Unit tank = factory.createUnit(UnitType.Tank);
-        Unit riffleman = factory.createUnit(UnitType.Riffleman);
+        Unit newUnit1 = blueFactory.createUnit(InfantaryUnitType.Riffleman);
+        Unit newUnit2 = redFactory.createUnit(InfantaryUnitType.Riffleman);
 
-        //Tak nie mozna chronione jest to przez paczke units. Klassa
-        //Unit.class ma konstruktor protected(czyli tylko w obrebie klass rozszerzających)
-        //Klasy jednostek mają widoczność domyślna czyli w obrębie pakietu dzięki czemu
-        //UnitFactory.class może używać ich konstruktor.
-        //Unit xd = new Riffleman(100,5,2);
+        System.out.println("Siema tutaj " + newUnit1);
+        System.out.println("Siema tutaj " + newUnit2);
+        //Sniper sniper = new Sniper(50,0,5, Flag.RED);
 
     }
 }
